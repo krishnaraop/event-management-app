@@ -1,7 +1,7 @@
 // components/EventList.tsx
 import React from 'react';
 import EventCard from './EventCard';
-import { Event } from '../types/event';
+import { Event } from '../types';
 
 interface EventListProps {
   events: Event[];

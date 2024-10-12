@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Event } from '../types/event';
+import { Event } from '../types';
 
 interface EventCardProps {
   event: Event;

@@ -2,7 +2,7 @@
 import { useRouter } from 'next/router';
 import EventForm from '../../components/EventForm';
 import  supabase  from '../../lib/supabase';
-import { Event } from '../../types/event';
+import { Event } from '../../types';
 
 export default function CreateEvent() {
   const router = useRouter();
